@@ -34,6 +34,10 @@ Clock::Clock(DisplayApp* app,
                 [this]() -> std::unique_ptr<Screen> { return WatchFaceDigitalScreen(); },
                 [this]() -> std::unique_ptr<Screen> { return WatchFaceAnalogScreen(); },
                 // Examples for more watch faces
+               //add Wizlon time Digital
+               //add Wizlontime Analog
+               //add Sleep Cycle circles
+               //Add vegan level
                 //[this]() -> std::unique_ptr<Screen> { return WatchFaceMinimalScreen(); },
                 //[this]() -> std::unique_ptr<Screen> { return WatchFaceCustomScreen(); }
           },
